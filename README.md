@@ -1,4 +1,4 @@
-# Shop-Work - E-Commerce Back-End
+# Shop-Work : E-Commerce Back-End
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,7 +11,6 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
-  * [Testing](#testing)
   * [License](#license)
   * [Questions](#questions)
   
@@ -21,9 +20,9 @@ Follow these steps for installing this project:
 1. Clone the repository to your machine
 2. Navigate to the root folder of the application and open your CLI.
 3. Run `npm install` for the necessary dependencies.
-4. Create a .env file in the root folder of the application to store your MySQL username and password.
-5. From the command line, enter the MySQL shell using `mysql -u root -p`
-6. Inside the MySQL shell, run `source db/schema.sql’ to create the database.
+4. Create a `.env` file in the root folder of the application to store your MySQL username and password.
+5. From the command line, enter the MySQL shell using `mysql -u root -p`.
+6. Inside the MySQL shell, run `source db/schema.sql` to create the database.
 7. Exit the MySQL shell (using `quit`) to return to the command line. Run `npm run seed` to populate the tables and data in the database.
 8. Use the command `npm start` to start the server for testing.
 
@@ -35,7 +34,7 @@ To use the application you'll navigte to the folder where the application has be
 
 ## Contributing
 
-  This application is not currently open to contributions at this time.
+  This application is not open to contributions at this time.
 
 ## License
 
